@@ -1,0 +1,24 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "criando API com node.js e banco de dados",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdsonSizenando/API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EdsonSizenando/API/issues"
+  },
+  "homepage": "https://github.com/EdsonSizenando/API#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
