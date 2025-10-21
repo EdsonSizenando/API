@@ -7,12 +7,14 @@
 */
 
 import express from 'express'
+import cors from 'cors'
 import { PrismaClient } from '@prisma/client'
 
 const prisma = new PrismaClient()
 
 const app = express()
 app.use(express.json())  //fazer o express utilzar json
+app.use(cors()) //inserir o link onde vai rodar para +segur.
 
 
 
